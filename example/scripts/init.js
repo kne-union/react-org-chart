@@ -13,6 +13,7 @@ const path = require("path");
     packageJson.syntax = {
         esmodules: true
     };
+    packageJson.homepage = '/react-org-chart'
     await fs.writeJson(path.resolve(__dirname, "../package.json"), packageJson);
     await spawn("npm", ["i", '--legacy-peer-deps'], {stdio: 'inherit'});
     await spawn("npm", ["i", "node-sass", "--save-dev", "--legacy-peer-deps"], {stdio: 'inherit'});
