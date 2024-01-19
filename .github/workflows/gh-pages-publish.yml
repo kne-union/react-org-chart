@@ -21,7 +21,7 @@ jobs:
           submodules: true  # TODO remove this if not using submodules in Hexo
 
       - name: Install 🔧
-        run: npm install
+        run: npm install && npm run init
 
       - name: Build 🏗️
         run: npm run build
