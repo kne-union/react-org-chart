@@ -1,8 +1,10 @@
 import React from 'react';
 import TreeNode from './TreeNode';
+import classnames from 'classnames';
 import style from './style.module.scss';
 
 const Tree = ({
+                  className,
                   children,
                   label,
                   lineHeight = '20px',
@@ -11,15 +13,15 @@ const Tree = ({
                   nodePadding = '5px',
                   lineBorderRadius = '5px',
               }) => {
-    return (<ul className={style.tree} style={{
-            '--line-height': lineHeight,
-            '--line-width': lineWidth,
-            '--line-color': lineColor,
-            '--node-padding': nodePadding,
-            '--line-border-radius': lineBorderRadius
-        }}>
-            <TreeNode label={label}>{children}</TreeNode>
-        </ul>);
+    return (<ul className={classnames(className, style.tree)} style={{
+        '--line-height': lineHeight,
+        '--line-width': lineWidth,
+        '--line-color': lineColor,
+        '--node-padding': nodePadding,
+        '--line-border-radius': lineBorderRadius
+    }}>
+        <TreeNode className="root" label={label}>{children}</TreeNode>
+    </ul>);
 };
 
 Tree.Node = TreeNode;
