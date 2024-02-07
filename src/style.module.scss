@@ -23,6 +23,7 @@
   margin: 0;
   padding-top: var(--tree-line-height);
   position: relative;
+
   &:before {
     @extend .vertical-line;
     left: 50%;
@@ -38,6 +39,12 @@
   padding: var(--tree-line-height) var(--tree-node-padding) 0 var(--tree-node-padding);
 }
 
+.node-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .node-lines {
   &:before,
   &:after {
@@ -46,30 +53,37 @@
     width: 50%;
     border-top: var(--tree-line-width) solid var(--tree-line-color);
   }
+
   &:after {
     left: 50%;
     border-left: var(--tree-line-width) solid var(--tree-line-color);
   }
+
   &:only-of-type {
     padding: 0;
+
     &:after,
     &:before {
       display: none;
     }
   }
+
   &:first-of-type {
     &:before {
       border: 0 none;
     }
+
     &:after {
       border-radius: var(--tree-line-border-radius) 0 0 0;
     }
   }
+
   &:last-of-type {
     &:before {
       border-right: var(--tree-line-width) solid var(--tree-line-color);
       border-radius: 0 var(--tree-line-border-radius) 0 0;
     }
+
     &:after {
       border: 0 none;
     }
