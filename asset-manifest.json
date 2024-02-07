@@ -1,13 +1,44 @@
 {
   "files": {
-    "main.css": "/react-org-chart/static/css/main.f7c4b59c.css",
-    "main.js": "/react-org-chart/static/js/main.b2297f4d.js",
+    "main.js": "/react-org-chart/static/js/main.de63a82e.js",
+    "react_org_chart_0_1_6.js": "/react-org-chart/remoteEntry.js",
+    "static/css/848.9051c9d4.chunk.css": "/react-org-chart/static/css/848.9051c9d4.chunk.css",
+    "static/js/848.1a711977.chunk.js": "/react-org-chart/static/js/848.1a711977.chunk.js",
+    "static/js/124.4fd27514.chunk.js": "/react-org-chart/static/js/124.4fd27514.chunk.js",
+    "static/js/466.73fb00f1.chunk.js": "/react-org-chart/static/js/466.73fb00f1.chunk.js",
+    "static/js/868.8c75008c.chunk.js": "/react-org-chart/static/js/868.8c75008c.chunk.js",
+    "static/js/136.4a661c92.chunk.js": "/react-org-chart/static/js/136.4a661c92.chunk.js",
+    "static/css/356.6562d890.chunk.css": "/react-org-chart/static/css/356.6562d890.chunk.css",
+    "static/js/356.16709c36.chunk.js": "/react-org-chart/static/js/356.16709c36.chunk.js",
+    "static/js/648.9107e5b6.chunk.js": "/react-org-chart/static/js/648.9107e5b6.chunk.js",
+    "static/js/80.429e4292.chunk.js": "/react-org-chart/static/js/80.429e4292.chunk.js",
+    "static/js/16.98098379.chunk.js": "/react-org-chart/static/js/16.98098379.chunk.js",
+    "static/js/328.aff08886.chunk.js": "/react-org-chart/static/js/328.aff08886.chunk.js",
+    "static/js/876.284bfc78.chunk.js": "/react-org-chart/static/js/876.284bfc78.chunk.js",
+    "static/js/757.c0b24487.chunk.js": "/react-org-chart/static/js/757.c0b24487.chunk.js",
+    "static/js/572.9184e3ef.chunk.js": "/react-org-chart/static/js/572.9184e3ef.chunk.js",
+    "static/js/884.8a45a0a8.chunk.js": "/react-org-chart/static/js/884.8a45a0a8.chunk.js",
     "index.html": "/react-org-chart/index.html",
-    "main.f7c4b59c.css.map": "/react-org-chart/static/css/main.f7c4b59c.css.map",
-    "main.b2297f4d.js.map": "/react-org-chart/static/js/main.b2297f4d.js.map"
+    "main.de63a82e.js.map": "/react-org-chart/static/js/main.de63a82e.js.map",
+    "remoteEntry.js.map": "/react-org-chart/remoteEntry.js.map",
+    "848.9051c9d4.chunk.css.map": "/react-org-chart/static/css/848.9051c9d4.chunk.css.map",
+    "848.1a711977.chunk.js.map": "/react-org-chart/static/js/848.1a711977.chunk.js.map",
+    "124.4fd27514.chunk.js.map": "/react-org-chart/static/js/124.4fd27514.chunk.js.map",
+    "466.73fb00f1.chunk.js.map": "/react-org-chart/static/js/466.73fb00f1.chunk.js.map",
+    "868.8c75008c.chunk.js.map": "/react-org-chart/static/js/868.8c75008c.chunk.js.map",
+    "136.4a661c92.chunk.js.map": "/react-org-chart/static/js/136.4a661c92.chunk.js.map",
+    "356.6562d890.chunk.css.map": "/react-org-chart/static/css/356.6562d890.chunk.css.map",
+    "356.16709c36.chunk.js.map": "/react-org-chart/static/js/356.16709c36.chunk.js.map",
+    "648.9107e5b6.chunk.js.map": "/react-org-chart/static/js/648.9107e5b6.chunk.js.map",
+    "80.429e4292.chunk.js.map": "/react-org-chart/static/js/80.429e4292.chunk.js.map",
+    "16.98098379.chunk.js.map": "/react-org-chart/static/js/16.98098379.chunk.js.map",
+    "328.aff08886.chunk.js.map": "/react-org-chart/static/js/328.aff08886.chunk.js.map",
+    "876.284bfc78.chunk.js.map": "/react-org-chart/static/js/876.284bfc78.chunk.js.map",
+    "757.c0b24487.chunk.js.map": "/react-org-chart/static/js/757.c0b24487.chunk.js.map",
+    "572.9184e3ef.chunk.js.map": "/react-org-chart/static/js/572.9184e3ef.chunk.js.map",
+    "884.8a45a0a8.chunk.js.map": "/react-org-chart/static/js/884.8a45a0a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7c4b59c.css",
-    "static/js/main.b2297f4d.js"
+    "static/js/main.de63a82e.js"
   ]
 }
