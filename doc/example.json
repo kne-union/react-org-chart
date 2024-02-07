@@ -12,6 +12,9 @@
         },
         {
           "packageName": "@kne/react-org-chart/dist/index.css"
+        },{
+          "name": "antd",
+          "packageName": "antd"
         }
       ]
     }

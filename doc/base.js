@@ -1,12 +1,13 @@
 const {default:OrgChart} = ReactOrgChart;
+const {Card} = antd;
 
 const BaseExample = ()=>{
-    return <OrgChart label="root">
-        <OrgChart.Node label="Child 1">
-            <OrgChart.Node label="Grand Child" />
-            <OrgChart.Node label="Grand Child2">
-                <OrgChart.Node label="Grand2 Child" />
-                <OrgChart.Node label="Grand2 Child2" />
+    return <OrgChart label={<Card>root</Card>}>
+        <OrgChart.Node label={<Card>Child 1</Card>}>
+            <OrgChart.Node label={<Card>Grand Child</Card>} />
+            <OrgChart.Node label={<Card>Grand Child2</Card>}>
+                <OrgChart.Node label={<Card>Grand2 Child</Card>} />
+                <OrgChart.Node label={<Card>Grand2 Child2</Card>} />
             </OrgChart.Node>
         </OrgChart.Node>
     </OrgChart>;
